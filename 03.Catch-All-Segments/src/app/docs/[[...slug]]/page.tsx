@@ -4,9 +4,9 @@ export default function Docs({params} : {
   }
 }){
 
-  if(params.slug.length === 2){
+  if(params.slug?.length === 2){
     return <h2>Slug 1: {params.slug[0]} et Slug 2  {params.slug[1]} </h2>
-  }else if(params.slug.length === 1){
+  }else if(params.slug?.length === 1){
     return <h2>Slug 1: {params.slug[0]} </h2>
   }
 
