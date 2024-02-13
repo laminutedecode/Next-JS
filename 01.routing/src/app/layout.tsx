@@ -1,5 +1,3 @@
-// Le fichier Layout est généralement utilisé pour définir la structure globale de la mise en page de votre application. Il s'agit d'un composant réutilisable qui peut envelopper le contenu de chaque page pour fournir une mise en page cohérente, des éléments de navigation ou tout autre contenu partagé.
-
 import './index.css'
 import Navigation from "@/components/Navigation"
 import Footer from "@/components/Footer"

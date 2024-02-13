@@ -1,4 +1,4 @@
-
+// Le fichier Layout est généralement utilisé pour définir la structure globale de la mise en page de votre application. Il s'agit d'un composant réutilisable qui peut envelopper le contenu de chaque page pour fournir une mise en page cohérente, des éléments de navigation ou tout autre contenu partagé.
 
 export default function Home(){
   return (
@@ -8,4 +8,3 @@ export default function Home(){
   )
 }
 
-// En utilisant un fichier layout dans Next.js, vous pouvez maintenir une structure de mise en page cohérente à travers votre application, ce qui facilite la gestion et la modification de l'apparence de votre site ou de votre application web.

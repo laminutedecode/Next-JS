@@ -4,7 +4,7 @@ import Footer from "@/components/Footer"
 
 // Dans le contexte du SEO le "routing metadata" peut être utilisé pour améliorer la manière dont les moteurs de recherche indexent et affichent votre site dans les résultats de recherche.
 
-// En utilisant le modèle que vous avez fourni, où vous définissez des métadonnées comme le titre et la description dans un fichier de layout, cela peut être très bénéfique pour le SEO.
+//  où vous définissez des métadonnées comme le titre et la description dans un fichier de layout, cela peut être très bénéfique pour le SEO.
 
 // Titre: Le titre de votre page est un facteur clé pour le SEO. En spécifiant un titre pertinent et descriptif pour chaque page via les métadonnées, vous pouvez aider les moteurs de recherche à comprendre de quoi parle votre page et à l'afficher de manière appropriée dans les résultats de recherche.
 
