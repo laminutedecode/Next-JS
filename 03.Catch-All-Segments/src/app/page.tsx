@@ -1,4 +1,4 @@
-// Les segments avec le routage peuvent également inclure des segments de capture globale, également appelés "catch-all segments". Cela permet de capturer tous les segments de l'URL restants après une certaine partie de l'URL.
+// Les segments avec le routage peuvent également inclure des segments de capture globale, également appelés "catch-all segments". Cela permet de capturer tous les segments de l'URL restants après une certaine partie de l'URL. Ils peuvent être étendus pour capturer tous les segments suivants.
 
 export default function Home(){
   return (
