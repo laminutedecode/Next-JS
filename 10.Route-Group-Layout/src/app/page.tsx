@@ -1,6 +1,6 @@
 // Les route group layouts sont une technique utilisée dans les applications web pour organiser et gérer la mise en page des différentes sections ou groupes de routes. Plutôt que de définir la mise en page pour chaque route individuellement, vous regroupez les routes qui partagent une même mise en page sous un même groupe. Ensuite, vous appliquez une mise en page spécifique à ce groupe de routes.
 
-// L'utilité principale des route group layouts est de simplifier la gestion de la mise en page dans les applications web, en particulier celles qui ont plusieurs pages ou sections avec une structure de mise en page similaire. 
+// L'utilité principale des route group layouts est de simplifier la gestion de la mise en page dans les applications web, en particulier celles qui ont plusieurs pages ou sections avec une structure de mise en page similaire. (Créer le dossier with-auth-layout dans (auth) et glisser login, register et forgot-password dedans)
 
 export default function Home(){
   return (
