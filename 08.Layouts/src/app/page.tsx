@@ -1,4 +1,5 @@
 
+
 export default function Home(){
   return (
     <div className='w-full h-screen flex items-center justify-center'>
@@ -7,3 +8,4 @@ export default function Home(){
   )
 }
 
+// En utilisant un fichier layout dans Next.js, vous pouvez maintenir une structure de mise en page cohérente à travers votre application, ce qui facilite la gestion et la modification de l'apparence de votre site ou de votre application web.
