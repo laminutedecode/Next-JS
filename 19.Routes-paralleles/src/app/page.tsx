@@ -1,4 +1,4 @@
-// Le fichier error.tsx est un composant spécial dans Next.js utilisé pour la gestion des erreurs sur le côté client. Lorsque Next.js détecte une erreur lors du rendu d'une page, il utilise ce fichier pour afficher une page d'erreur personnalisée au lieu de simplement planter avec un message d'erreur par défaut. aller dans le dossier review dans page puis errors
+// Dans le contexte de Next.js, les "routes parallèles" font référence à la capacité de définir plusieurs chemins pour une même page. Cela offre une flexibilité accrue dans la gestion des routes et des paramètres d'URL, ce qui peut être très utile pour diverses applications.
 
 export default function Home(){
   return (

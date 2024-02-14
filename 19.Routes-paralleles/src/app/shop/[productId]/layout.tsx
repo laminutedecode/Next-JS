@@ -1,8 +1,4 @@
 
-function getNb(count: number){
-  return Math.floor(Math.random() * count)
-}
-
 
 export default function ProductLayout({
   children,
@@ -11,15 +7,6 @@ export default function ProductLayout({
 }) {
 
 
-
-
-  const random = getNb(2);
-
-  if(random === 1){
-    console.log('Hello');
-  }else {
-    throw new Error('Il y a eu une erreur dans product')
-  }
 
 
 

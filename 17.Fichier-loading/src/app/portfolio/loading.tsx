@@ -6,4 +6,3 @@ export default function Loading(){
   )
 }
 
-// En créant un fichier nommé "_loading.js" (ou "_loading.jsx" si vous utilisez JSX) dans le dossier "pages", vous pouvez personnaliser l'apparence de cet indicateur de chargement en définissant un composant React. Ce composant peut contenir n'importe quel contenu que vous souhaitez afficher pendant le chargement, comme une animation personnalisée, un message d'attente, etc.

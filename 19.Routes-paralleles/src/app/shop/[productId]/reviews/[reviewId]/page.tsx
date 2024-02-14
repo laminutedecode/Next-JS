@@ -1,25 +1,14 @@
 import { notFound } from "next/navigation";
 
 
-//######
 
-function getNb(count: number){
-  return Math.floor(Math.random() * count)
-}
 
 export default function Reviews({params } : { 
   params: {
   productId: string;
   reviewId: string;
 }}) {
-  //###
-  const random = getNb(2);
 
-  if(random === 1){
-    console.log('Hello');
-  }else {
-    throw new Error('Il y a eu une erreur dans review')
-  }
 
   if(parseInt(params.reviewId) > 1000){
     notFound()

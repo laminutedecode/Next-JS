@@ -1,6 +1,6 @@
+import Footer from "@/app/components/Footer"
+import Navigation from "@/app/components/Navigation"
 import './index.css'
-import Navigation from "@/components/Navigation"
-import Footer from "@/components/Footer"
 
 
 

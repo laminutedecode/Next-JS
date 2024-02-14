@@ -1,4 +1,4 @@
-// le fichier "loading" est un composant spécial qui peut être utilisé pour personnaliser l'apparence de l'indicateur de chargement lors du chargement d'une page ou d'une route. Lorsque vous effectuez une transition entre les pages ou que vous chargez des données de manière asynchrone, 
+
 
 export default function Home(){
   return (

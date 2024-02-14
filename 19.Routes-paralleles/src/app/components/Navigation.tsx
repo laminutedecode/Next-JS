@@ -1,4 +1,4 @@
-import styles from '../styles/components/navigation.module.css';
+import styles from '@/styles/components/navigation.module.css';
 
 
 import Link from 'next/link';
