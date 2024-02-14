@@ -1,4 +1,4 @@
-// En Next.js, "Link" est un composant utilisé pour la navigation entre différentes pages de votre application sans rechargement complet de la page. C'est une alternative à l'utilisation des balises <a> traditionnelles en html (voir navigation)
+
 
 export default function Home(){
   return (

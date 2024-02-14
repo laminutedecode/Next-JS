@@ -4,8 +4,6 @@
 import { useRouter } from "next/navigation";
 
 
-// Next.js fournit un hook appelé useRouter qui permet d'accéder à l'objet de routage. Vous pouvez l'importer dans n'importe quel composant fonctionnel de votre application Next.js.
-
 
 
 
@@ -23,12 +21,7 @@ export default function Order(){
     
     // forward est utilisée pour avancer vers la page suivante dans l'historique de navigation du navigateur. Elle est souvent utilisée en conjonction avec la méthode back pour permettre à l'utilisateur de naviguer dans l'historique de navigation de l'application.
 
-    // router.push('/nouvelle-page', undefined, { shallow: true });
-
-    // Gestion de la navigation côté serveur: Next.js offre également la possibilité de gérer la navigation côté serveur, ce qui peut être utile pour le rendu côté serveur (SSR) et pour récupérer des données avant le rendu de la page. Vous pouvez utiliser router.push avec l'option shallow pour effectuer une navigation sans rafraîchissement de la page entière.
-
-    // Navigation avec des paramètres: Si vous avez besoin de passer des paramètres à la page vers laquelle vous naviguez, vous pouvez spécifier une URL avec des segments de chemin dynamiques et les valeurs correspondantes dans un objet de requête.
-      // router.push(`/products/${id}`);
+   
   }
 
 

@@ -19,8 +19,10 @@ export default function Navigation(){
         <li className='text-white'>
           <Link href="/shop" passHref>Shop</Link>
         </li>
+        <li className='text-white'>
+          <Link href="/login" passHref>Login</Link>
+        </li>
       </ul>
     </nav>
   )
 }
-
