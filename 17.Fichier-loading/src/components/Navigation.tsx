@@ -17,10 +17,13 @@ export default function Navigation(){
           <Link href="/about">À propos</Link>
         </li>
         <li className='text-white'>
-          <Link href="/shop" passHref>Shop</Link>
+          <Link href="/shop" >Shop</Link>
         </li>
         <li className='text-white'>
-          <Link href="/login" passHref>Login</Link>
+          <Link href="/login" >Login</Link>
+        </li>
+        <li className='text-white'>
+          <Link href="/portfolio" >Portfolio</Link>
         </li>
       </ul>
     </nav>
