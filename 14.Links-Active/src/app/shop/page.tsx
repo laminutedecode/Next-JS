@@ -13,7 +13,7 @@ export const metadata : Metadata = {
 export default function Shop(){
 
 
-//possible d emettr el id de page dans une variable
+
 const productId = 77;
 
   return (
@@ -33,19 +33,14 @@ const productId = 77;
         <li >
           <Link href="/shop/4" replace>Produit 4</Link>
         </li>
-      {/* // Replace (facultatif): C'est un attribut qui, lorsqu'il est défini sur true, remplace l'historique de navigation au lieu de l'ajouter lors du clic sur le lien. Cela peut être utile dans certains scénarios de navigation. */}
-        <li >
+              <li >
           <Link href="/shop/5" passHref>Produit 5</Link>
         </li>
-      {/* // PassHref (facultatif):  il transmet les props spéciales nécessaires pour que le lien fonctionne correctement. Cela peut être nécessaire dans certains cas particuliers. */}
         <li >
           <Link href="/shop/6" prefetch >Produit 6</Link>
         </li>
-      {/*  // Prefetch (facultatif): Cet attribut, lorsqu'il est défini sur true, permet à Next.js de prefetcher la page vers laquelle le lien pointe. Cela signifie que la page est préchargée en arrière-plan pour une navigation plus rapide lorsque le lien est survolé. */}
       </ul>
   </div>
   )
 }
 
-
-//Voir page layout de auth
