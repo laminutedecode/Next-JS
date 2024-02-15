@@ -10,4 +10,3 @@ export default function loginuser(){
   )
 }
 
-//rajouter login dans le layout du dashboard

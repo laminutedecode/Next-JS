@@ -8,5 +8,3 @@ export default function Fold4(){
   </div>
   )
 }
-
-// créer lintercepteur

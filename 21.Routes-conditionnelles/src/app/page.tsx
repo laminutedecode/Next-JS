@@ -1,4 +1,4 @@
-// Les routes conditionnelles avec Next.js permettent de définir des routes dynamiques en fonction de certaines conditions. Cela peut être utile dans divers scénarios, tels que l'authentification de l'utilisateur, la gestion des autorisations ou la redirection en fonction de l'état de l'application. Créer le composant @login dans dashboard
+
 
 export default function Home(){
   return (

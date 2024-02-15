@@ -9,5 +9,3 @@ export default function IntercepteurFold2(){
   </div>
   )
 }
-
-// /si je rajoute lintercepteur et que jessaye daller de fold a fold2 via le liens je vais passe rpar cettepage. Créer fold3 et fold 4

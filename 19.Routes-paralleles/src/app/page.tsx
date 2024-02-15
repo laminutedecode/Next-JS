@@ -1,4 +1,4 @@
-// Dans le contexte de Next.js, les "routes parallèles" font référence à la capacité de définir plusieurs chemins pour une même page. Cela offre une flexibilité accrue dans la gestion des routes et des paramètres d'URL, ce qui peut être très utile pour diverses applications.
+
 
 export default function Home(){
   return (
