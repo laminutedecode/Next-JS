@@ -1,7 +1,15 @@
 import { reviewsTab } from "../data"
-
+import {redirect} from 'next/navigation'
 
 export async function GET(_request: Request, {params} : {params: {id : string}}){
+
+
+  //
+  if(parseInt(params.id) > reviewsTab.length){
+    redirect("/reviews")
+  }
+
+  // http://localhost:3000/reviews/2 http://localhost:3000/reviews/5
 
   const review = reviewsTab.find((review)=> review.id === parseInt(params.id))
   return Response.json(review)
