@@ -20,5 +20,5 @@ export async function GET(request: NextRequest) {
 }
 
 
-//faire unget dans thunder http://localhost:3000/dashboard/profil/api et montre que mdc123 apparait dans le terminal puis faire un   return new Response("<h1>PROFIL API</h1>"), {headers: { "Content-type": "text/html"}
+
 

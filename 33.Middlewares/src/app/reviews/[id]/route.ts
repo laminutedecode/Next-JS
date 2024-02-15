@@ -9,7 +9,7 @@ export async function GET(_request: Request, {params} : {params: {id : string}})
     redirect("/reviews")
   }
 
-
+  // http://localhost:3000/reviews/2 http://localhost:3000/reviews/5
 
   const review = reviewsTab.find((review)=> review.id === parseInt(params.id))
   return Response.json(review)
